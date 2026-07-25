@@ -1,0 +1,9 @@
+- load: modrinth
+  id: distanthorizons
+  version: "3.2.0-b-1.21.1"
+  group: "pretty"
+
+- load: modrinth
+  id: iris
+  version: "1.8.14-beta.1+1.21.1-neoforge"
+  group: "pretty_client"

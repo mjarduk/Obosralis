@@ -1,0 +1,9 @@
+- load: modrinth
+  id: servercore
+  version: "6N9hXiRa"
+  group: server
+
+- load: modrinth
+  id: ai-improvements
+  version: "dGNP90t0"
+  group: server

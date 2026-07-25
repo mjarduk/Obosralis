@@ -1,0 +1,54 @@
+- load: modrinth
+  id: cloth_config
+  project: "cloth-config"
+  version: "15.0.140+neoforge"
+
+- load: modrinth
+  id: sable
+  project: "sable"
+  version: "1L6XJqnY"
+
+- load: modrinth
+  id: creativecore
+  project: "creativecore"
+  version: "nLLornod"
+
+- load: modrinth
+  id: kotlin-for-forge
+  project: "kotlin-for-forge"
+  version: "5.11.0"
+
+- load: modrinth
+  id: petrolpark
+  project: "petrolpark"
+  version: "1.21.1-1.4.32"
+
+- load: modrinth
+  id: rpl
+  project: "rpl"
+  version: "hZ6B2Z0x"
+
+- load: modrinth
+  id: silent-lib
+  project: "silent-lib"
+  version: "10.6.0"
+
+- load: modrinth
+  id: sophisticated-core
+  project: "sophisticated-core"
+  version: "1.21.1-1.4.24.1680"
+
+- load: modrinth
+  id: resourceful-lib
+  project: "resourceful-lib"
+  version: "x99nCLTm"
+
+- load: modrinth
+  id: architectury
+  project: "architectury-api"
+  version: "13.0.8+neoforge"
+
+- load: modrinth
+  id: lithostitched
+  version: "1.7.13-neoforge-21.1"
+  group: server

@@ -1,0 +1,19 @@
+- load: modrinth
+  id: sodium
+  version: mc1.21.1-0.8.12-neoforge
+  group: client
+
+- load: modrinth
+  id: sodium-extra
+  version: mc1.21.1-0.9.3+neoforge
+  group: client
+
+- load: modrinth
+  id: immediatelyfast
+  version: 1.6.11+1.21.1-neoforge
+  group: client
+
+- load: modrinth
+  id: ixeris
+  version: 4.5.2+1.21.1-neoforge
+  group: client

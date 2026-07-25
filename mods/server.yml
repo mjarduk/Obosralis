@@ -1,0 +1,15 @@
+- load: modrinth
+  id: spark
+  version: "1.10.124-neoforge-1.21.1"
+  group: debug
+
+- load: modrinth
+  id: terralith
+  version: "IY93YaEe"
+  group: server
+
+
+- load: modrinth
+  id: bluemap
+  version: "8iJcPOHJ"
+  group: server

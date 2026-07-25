@@ -1,4 +1,0 @@
-- load: modrinth
-  id: fabric-api
-  project: "fabric-api"
-  version: "0.92.7+1.20.1"

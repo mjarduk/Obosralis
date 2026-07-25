@@ -5,16 +5,16 @@ pack:
 
 versions:
   minecraft: "1.21.1"
-  fabric-loader: "21.1.228"
+  neoforge: "21.1.243"
 
 profiles:
-  base:
+  server:
     groups:
-      - optimizations
+      - server
       - pretty
-      - qol
-  full:
+      - debug
+  client:
     groups:
-      - optimizations_client
-      - qol_client
+      - client
+      - pretty
       - pretty_client
