@@ -15,9 +15,9 @@ jobs:
         run: pip install redneck
       - name: build
         run: |
-            redneck build full -b mrpack -o .redneck/build/client.mrpack
-            redneck build full -b zip -o .redneck/build/client.zip
-            redneck build base -b mrpack -o .redneck/build/server.mrpack
+            redneck build client -b mrpack -o .redneck/build/client.mrpack
+            redneck build client -b zip -o .redneck/build/client.zip
+            redneck build server -b mrpack -o .redneck/build/server.mrpack
       - name: optimize archive compression
         run: |
           sudo apt-get update && sudo apt-get install -y advancecomp
