@@ -74,6 +74,10 @@
   project: "exposure"
   version: "KZR7AUbh"
 
+- load: modrinth
+  id: cc-tweaked
+  version: "8XEJbAee"
+
 # == DECOR
 
 - load: modrinth
