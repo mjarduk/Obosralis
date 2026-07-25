@@ -8,7 +8,6 @@
   version: "IY93YaEe"
   group: server
 
-
 - load: modrinth
   id: bluemap
   version: "8iJcPOHJ"

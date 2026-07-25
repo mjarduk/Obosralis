@@ -7,6 +7,15 @@ versions:
   minecraft: "1.21.1"
   neoforge: "21.1.243"
 
+include_files:
+  - "./config/**"
+  - "./icon.png"
+  - src: "./vendor/*"
+    dest: "./mods/"
+  - src: "./kubejs/server_scripts/*"
+    dest: "./kubejs/server_scripts/"
+    group: "server"
+
 profiles:
   base:
     groups:
