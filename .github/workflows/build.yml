@@ -1,0 +1,40 @@
+name: build
+on: [pull_request, push]
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@v7
+      - name: setup python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '>=3.13'
+      - name: setup redneck
+        run: pip install redneck
+      - name: build
+        run: |
+            redneck build full -b mrpack -o .redneck/build/client.mrpack
+            redneck build full -b zip -o .redneck/build/client.zip
+            redneck build base -b mrpack -o .redneck/build/server.mrpack
+      - name: optimize archive compression
+        run: |
+          sudo apt-get update && sudo apt-get install -y advancecomp
+          advzip --recompress --shrink-insane .redneck/build/*.mrpack
+          advzip --recompress --shrink-insane .redneck/build/*.zip
+      - name: capture client mrpack
+        uses: actions/upload-artifact@v7
+        with:
+          path: .redneck/build/client.mrpack
+          archive: false
+      - name: capture client zip
+        uses: actions/upload-artifact@v7
+        with:
+          path: .redneck/build/client.zip
+          archive: false
+      - name: capture client zip
+        uses: actions/upload-artifact@v7
+        with:
+          path: .redneck/build/server.mrpack
+          archive: false
