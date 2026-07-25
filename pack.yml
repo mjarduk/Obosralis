@@ -7,4 +7,14 @@ versions:
   minecraft: "1.21.1"
   fabric-loader: "21.1.228"
 
-default_profile: "base"
+profiles:
+  base:
+    groups:
+      - optimizations
+      - pretty
+      - qol
+  full:
+    groups:
+      - optimizations_client
+      - qol_client
+      - pretty_client
