@@ -8,13 +8,16 @@ versions:
   neoforge: "21.1.243"
 
 profiles:
+  base:
+    groups:
+      - pretty
+      - qol
   server:
     groups:
       - server
-      - pretty
       - debug
   client:
     groups:
       - client
-      - pretty
       - pretty_client
+      - qol_client

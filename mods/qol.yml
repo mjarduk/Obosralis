@@ -1,0 +1,41 @@
+- load: modrinth
+  id: simple-voice-chat
+  project: "simple-voice-chat"
+  version: "neoforge-1.21.1-2.6.16"
+  group: "qol"
+
+- load: modrinth
+  id: emi
+  project: "emi"
+  version: "1.1.22+1.21.1+neoforge"
+  group: "qol"
+
+- load: modrinth
+  id: jei
+  project: "jei"
+  version: "YAcQ6elZ"
+  group: "qol"
+
+- load: modrinth
+  id: jade-addons-forge
+  project: "jade-addons-forge"
+  version: "6.1.0+neoforge"
+  group: "qol"
+
+- load: modrinth
+  id: jade
+  project: "jade"
+  version: "15.10.5+neoforge"
+  group: "qol"
+
+- load: modrinth
+  id: xaeros-minimap
+  project: "xaeros-minimap"
+  version: "neoforge-1.21.1-26.4.2"
+  group: "qol"
+
+- load: modrinth
+  id: xaeros-world-map
+  project: "xaeros-world-map"
+  version: "neoforge-1.21.1-1.44.2"
+  group: "qol"

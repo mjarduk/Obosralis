@@ -1,0 +1,11 @@
+- load: modrinth
+  id: mouse-tweaks
+  project: "mouse-tweaks"
+  version: "1.21-2.26.1-neoforge"
+  group: "qol_client"
+
+- load: modrinth
+  id: ok_zoomer
+  project: "ok-zoomer"
+  version: "10.0.0-beta.13+neo"
+  group: "qol_client"
