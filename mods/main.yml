@@ -35,6 +35,10 @@
   project: "create-ultimate-factory"
   version: "AEMRNsNS"
 
+- load: modrinth
+  id: create-radars
+  version: "AntNFNAx"
+
 # == HELPFUL
 
 - load: modrinth
