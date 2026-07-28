@@ -39,3 +39,8 @@
   project: "xaeros-world-map"
   version: "neoforge-1.21.1-1.44.2"
   group: "qol"
+
+- load: modrinth
+  id: appleskin
+  version: "uAKA6Laj"
+  group: "qol"
