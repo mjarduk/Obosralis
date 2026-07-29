@@ -56,6 +56,14 @@
   project: alcocraft
   version: "V0pbcqrh"
 
+- load: modrinth
+  id: silent-gear
+  version: "VRVOMdub"
+
+- load: modrinth
+  id: gravestone-mod
+  version: "neoforge-1.21.1-1.0.37"
+
 # == TECHNOLOGY
 
 - load: modrinth
